@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 8810",
-    "clean-build": "node ./clean-build.js",
     "start": "next start -p 8810",
-    "lint": "next lint",
-    "next-build-and-export": "npm run clean-build && cross-env NODE_ENV=production next build"
+    "lint": "next lint"
   },
   "dependencies": {
     "cross-env": "7.0.3",
@@ -34,7 +32,7 @@
     "dotenv": "14.2.0",
     "joi": "18.0.1",
     "lodash": "4.17.21",
-    "next": "15.3.3",
+    "next": "15.3.4",
     "postcss": "8.3.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
