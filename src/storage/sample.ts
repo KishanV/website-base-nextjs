@@ -1,0 +1,9 @@
+import * as msi from "misaki-studio-internal";
+export type ApiRequests = {};
+export type ApiResponse = {};
+export type State = {};
+export const StorageInstant = new msi.storage.Storage<
+  State,
+  ApiRequests,
+  ApiResponse
+>({}, (storage) => ({}));
